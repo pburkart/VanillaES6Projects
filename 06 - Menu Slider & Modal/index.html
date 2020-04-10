@@ -9,14 +9,14 @@
 		<link rel="stylesheet" href="css/style.css">
 		
 		<title>
-			My Landing Page
+			Paul Burkart - Full Stack Web Developer
 		</title>
 	</head>
 
 	<body>
 		<nav>
 			<div class='logo'>
-				<img src="https://randomuser.me/api/portraits/men/76.jpg" alt="User">
+				<img src="img/portrait.jpg" alt="User">
 			</div>
 			<ul>
 				<li><a href="#">Home</a></li>
@@ -31,66 +31,63 @@
 				<i class="fa fa-bars fa-2x"></i>
 			</button>
 
-			<h1>My Landing Page</h1>
+			<h1>Paul Burkart</h1>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, amet!</p>
+			<p>Future Software Developer and Billionaire</p>
 
 			<button class="cta-btn" id="open">Sign Up</button>
 		</header>
 
 		<div class="container">
 			<h2>What is this landing page about?</h2>
-			<p>Lorem ipsum dolor sit amet consectetu adipisicing elit. Mollitia iure accusamus ab consectetur eos provident ipsa est perferendis architect. Provident, quaerat asperiores. Quo esse minus repellat sapiente, impedit obcaecati necessitatibus.</p>
-			<p>Lorem, ipsum dolor sit ametconsectetur adipisicing elit. Sapient optio officia ipsa. Cum dignissimos possimus et non provident facilis saepe!</p>
+			<p>This landing page is meant to serve as an introduction to who I am as a software developer. I have a wide range of interests covering all aspects of technology from Web Development to Embedded Systems.</p>
+			<p>I will be attending college in September 2020 in order to earn my degree as a Computer Programmer / Analyst. I hope to then turn this into an advanced degree after spending a third year in Tralee, Ireland. From here, I haven't decided yet what path to take with my career. </p>
 
 			<h2> Tell Me More</h2>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			<p>I have been studying computer programming in my time since I was 12. It all started when I made a calculator in VB.NET, following an online tutorial. This served as an excellent starting point as it introduced me to all of the concepts used in computer programming. Input/Output, Control Flow, Error Handling, Math. From here, I went on to study a great range of topics, including web development, game development, and database management. Lately I have been focused primarily on web development, and honing my JavaScript skills. Here are my top 3 skills as of 2020: </p>
 
-			<h2>Benefits</h2>
+			<h2>Top 3 Skills</h2>
 			<ul>
-				<li>Lifetime access</li>
-				<li>30 Day Money Back</li>
-				<li>Tailored Customer Support</li>
+				<li>Python</li>
+				<li>JavaScript</li>
+				<li>CSS3</li>
 			</ul>
 			
-			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quam nostrum, fugiat, itaque natus officia laborum dolorum id accusantium culpa architecto tenetur fuga? Consequatur provident rerum eius ratione dolor officiis doloremque minima optio dignissimos doloribus odio debatis vero cumque itaque encepturi a neque, expedita nulla earum accusamus repllat adipisci veritatis quam. Ipsum fugiat iusto pariatur consectetur quas libero dolor dolores dolorm, nostrum ducimus doloremque placeat accusamus ite, culpa quaerat consequatur?</p>
+			<p>Over the next 5 years I hope to become better at responsive web design and reactive web design with javascript. Beyond that, I also hope to expand my knowledge into the .NET architecture, and learn how to develop efficient clean desktop applications. Additionally, I would also like to start studying NodeJS, and use it in my desktop applications.</p>
 		</div>
 		
 		<!-- Modal -->
 		<div class="modal-container" id="modal">
 			<div class="modal">
 				<button class="close-btn" id="close">
-					<i class="fa fa-times">
+					<i class="fa fa-times"></i>
 				</button>
 				
 				<div class="modal-header">
 					<h3>Sign Up</h3>
-					<div class="modal-content">
-						<p>Register with us to get offers, support, and more!</p>
-						<form class="modal-form">
+				</div>
+				<div class="modal-content">
+					<p>Register with us to get offers, support, and more!</p>
+					<form class="modal-form">
+						<div>
+							<label for="name">Name</label>
+							<input type="text" id="name" class="form-input" placeholder="Enter Name">
+						</div>
 							<div>
-								<label for="name">Name</label>
-								<input type="text" id="name" placeholder="Enter Name">
-							</div>
-
+							<label for="email">Email</label>
+							<input type="email" id="email" class="form-input" placeholder="Enter E-Mail">
+						</div>
 							<div>
-								<label for="email">Email</label>
-								<input type="email" id="email" placeholder="Enter E-Mail">
-							</div>
-
+							<label for="password">Password</label>
+							<input type="password" id="password" class="form-input" placeholder="Enter Password">
+						</div>
 							<div>
-								<label for="password">Password</label>
-								<input type="password" id="password" placeholder="Enter Password">
-							</div>
-
-							<div>
-								<label for="password2">Confirm Password</label>
-								<input type="password" id="password2" placeholder="Confirm Password">
-							</div>	
-							<input type="submit" value="Submit" class="submit-btn"/>
-						</form>
-					</div>
+							<label for="password2">Confirm Password</label>
+							<input type="password" id="password2" class="form-input" placeholder="Confirm Password">
+						</div>	
+						<input type="submit" value="Submit" class="submit-btn"/>
+					</form>
 				</div>
 			</div>
 		</div>
