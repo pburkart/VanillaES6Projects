@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		
 		<title>
-			Paul Burkart - Full Stack Web Developer
+			Paul Burkart - Contact
 		</title>
 	</head>
 
@@ -39,22 +39,26 @@
 		</header>
 
 		<div class="container">
-			<h2>What is this landing page about?</h2>
-			<p>This landing page is meant to serve as an introduction to who I am as a software developer. I have a wide range of interests covering all aspects of technology from Web Development to Embedded Systems.</p>
-			<p>I will be attending college in September 2020 in order to earn my degree as a Computer Programmer / Analyst. I hope to then turn this into an advanced degree after spending a third year in Tralee, Ireland. From here, I haven't decided yet what path to take with my career. </p>
+			<h2>Send me a message</h2>
 
-			<h2> Tell Me More</h2>
+			<div class='contact-container'>
+				<form class='contact-form'>
+					<label for='firstName'>First Name</label>
+					<input type='text' id='firstName' name='firstName' placeholder='First Name'>
 
-			<p>I have been studying computer programming in my time since I was 12. It all started when I made a calculator in VB.NET, following an online tutorial. This served as an excellent starting point as it introduced me to all of the concepts used in computer programming. Input/Output, Control Flow, Error Handling, Math. From here, I went on to study a great range of topics, including web development, game development, and database management. Lately I have been focused primarily on web development, and honing my JavaScript skills. Here are my top 3 skills as of 2020: </p>
+					<label for='lastName'>Last Name</label>
+					<input type='text' id='lastName' name='lastName' placeholder='Last Name'>
 
-			<h2>Top 3 Skills</h2>
-			<ul>
-				<li>Python</li>
-				<li>JavaScript</li>
-				<li>CSS3</li>
-			</ul>
-			
-			<p>Over the next 5 years I hope to become better at responsive web design and reactive web design with javascript. Beyond that, I also hope to expand my knowledge into the .NET architecture, and learn how to develop efficient clean desktop applications. Additionally, I would also like to start studying NodeJS, and use it in my desktop applications.</p>
+					<label for='email'>E-Mail Address</label>
+					<input type='text' id='email' name='email' placeholder='E-Mail Address'>
+
+					<label for='message'>Message</label>
+					<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+					<input type='submit' value='Submit'>
+				</form>
+			</div>
+
 		</div>
 		
 		<!-- Modal -->
